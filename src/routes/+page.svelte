@@ -14,6 +14,16 @@
 	} from 'svelte-vertical-timeline';
 
 
+  const imageModules = import.meta.glob(
+		'/src/lib/assets/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		{
+			eager: true,
+			query: {
+				enhanced: true
+			}
+		}
+	)
+
   export let data;
   const { artists } = data;
 </script>
@@ -38,7 +48,7 @@
               <Card.Header class="pb-1">
                 <div class="relative w-full h-[112.5px] overflow-hidden">
                   <a href={act.dekmentalLink} target="_blank">
-                    <img src={act.image} class="w-full h-full object-cover border-0">
+                    <enhanced:img src={imageModules[`/src/lib/assets/${act.image}.webp`].default} alt="image of {act.artistName}" class="w-full h-full object-cover border-0" />
                   </a>
                 </div>
                 <Card.Title class="font-custom tracking-wide text-[#6a6b59]">{act.artistName}</Card.Title>

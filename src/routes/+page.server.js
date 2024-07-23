@@ -3,7 +3,7 @@ import path from 'path';
 import dayjs from 'dayjs';
 
 export function load({ params }) {
-  const filePath = path.join(process.cwd(), 'server', 'data', 'artists.json');
+  const filePath = path.join(process.cwd(), 'src', 'lib', 'artists.json');
   const fileContents = fs.readFileSync(filePath, 'utf-8');
   const artists = JSON.parse(fileContents);
   function findOverlappingArtists(artists) {
