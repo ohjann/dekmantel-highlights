@@ -52,8 +52,7 @@
                   </a>
                 </div>
                 <Card.Title class="font-custom tracking-wide text-[#6a6b59]">{act.artistName}</Card.Title>
-                <Card.Description class="relative">
-                  <div class="absolute font-custom z-10 text-[#8fa1ae] tracking-[1em] ml-2 -top-[1px]">HYPE-O-METER</div>
+                <Card.Description>
                   <Progress value={act.rating*10} />
                   <div class="flex gap-1 mt-2 flex-wrap">
                     {#each act.tags as tag}
