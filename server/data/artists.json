@@ -1,11 +1,15 @@
 [
   {
-    "artistName": "Pangea",
+    "artistName": "Pangaea",
     "rating": "9",
     "description": "yeeee",
     "youtubeLink": "https://www.youtube.com/watch?v=OxzMbmEtE9o",
     "dekmentalLink": "https://dekmantelfestival.com/artists/pangaea",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Pangaea-brian-whar-077.jpg",
+    "startDate": "2024-08-02T19:30:00",
+    "endDate": "2024-08-02T21:00:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "Il Quadro di Troisi",
@@ -13,7 +17,11 @@
     "description": "Cold wave italian vibes",
     "youtubeLink": "https://www.youtube.com/watch?v=-JVSVQFru78",
     "dekmentalLink": "https://dekmantelfestival.com/artists/il-quadro-di-troisi",
-    "emojis": "🔴"
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/DSCF3639.jpg",
+    "startDate": "2024-08-02T16:30:00",
+    "endDate": "2024-08-02T17:30:00",
+    "stage": "Amsterdamse Bos / Greenhouse"
   },
   {
     "artistName": "Cari Lekebusch",
@@ -21,7 +29,11 @@
     "description": "technoooooo",
     "youtubeLink": "https://youtu.be/JHo2oS9Io84?si=oRy94d_1c4lZdkGz",
     "dekmentalLink": "https://dekmantelfestival.com/artists/cari-lekebusch",
-    "emojis": "🎚️ 👹"
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Cari-Lekebusch-Cerebus-by-MiiaMagia.jpg",
+    "startDate": "2024-08-04T18:30:00",
+    "endDate": "2024-08-04T20:00:00",
+    "stage": "Amsterdamse Bos / UFO II"
   },
   {
     "artistName": "Rene Wise",
@@ -29,7 +41,11 @@
     "description": "Techno with a swing 💃",
     "youtubeLink": "https://youtu.be/g7M-c03UbuU?si=689LiM_8BQgAkmWn",
     "dekmentalLink": "https://dekmantelfestival.com/artists/rene-wise",
-    "emojis": "🎚️ 👹"
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/RYCRW3.jpg",
+    "startDate": "2024-08-03T16:00:00",
+    "endDate": "2024-08-03T18:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "Identified Patient",
@@ -37,7 +53,11 @@
     "description": "dark electronic \"Horror-tinged broken techno and bass music\"",
     "youtubeLink": "https://www.youtube.com/watch?v=hIdR31IGsA0",
     "dekmentalLink": "https://dekmantelfestival.com/artists/identified-patient",
-    "emojis": "🎚️ 👹"
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Identified-Patient.jpg",
+    "startDate": "2024-08-02T21:00:00",
+    "endDate": "2024-08-02T23:00:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "Regal86",
@@ -45,7 +65,11 @@
     "description": "HUGE discography, fun drum machine dancy retro bops in his tunes, mix of techno and 🤔 as DJ",
     "youtubeLink": "https://www.youtube.com/watch?v=LVG4-NU0D0Y",
     "dekmentalLink": "https://dekmantelfestival.com/artists/regal86",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Regal-pp.jpg",
+    "startDate": "2024-08-03T20:30:00",
+    "endDate": "2024-08-03T21:30:00",
+    "stage": "Amsterdamse Bos / Radar"
   },
   {
     "artistName": "Mad Miran & stranger",
@@ -53,7 +77,11 @@
     "description": "retro techno/electro/breakbeat/etc/etc sounds b2b",
     "youtubeLink": "https://youtu.be/Ji_4eZKWTgc?si=eVrSzi0PIDuI46AT",
     "dekmentalLink": "https://dekmantelfestival.com/artists/mad-miran-stranger",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://i1.sndcdn.com/artworks-KDaQVdroJu6s44ZB-HZq9Aw-original.jpg",
+    "startDate": "2024-08-03T18:00:00",
+    "endDate": "2024-08-03T20:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "Malibu & Sky H1",
@@ -61,7 +89,11 @@
     "description": "straight ambient, both are on PAN's *Mono No Aware*, sit-on-the-grass-and-listen vibes but they're on very early so maybe not worth going specifically for",
     "youtubeLink": "https://www.youtube.com/watch?v=2TVi2ylLydI",
     "dekmentalLink": "https://dekmantelfestival.com/artists/malibu-sky-h1",
-    "emojis": "🎚️ 🔴"
+    "emojis": "🎚️ 🔴",
+    "image": "https://media2.ntslive.co.uk/resize/800x800/42199027-581b-4a09-aa88-ae4b0b54a8ed_1705449600.jpeg",
+    "startDate": "2024-08-03T13:00:00",
+    "endDate": "2024-08-03T16:00:00",
+    "stage": "Amsterdamse Bos / UFO II"
   },
   {
     "artistName": "Courtesy",
@@ -69,7 +101,11 @@
     "description": "Lighter UKG, electro, house, actually looks like she enjoys DJing, good festival vibes",
     "youtubeLink": "https://www.youtube.com/watch?v=_6z4UpyVHoE",
     "dekmentalLink": "https://dekmantelfestival.com/artists/courtesy",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Courtesy-by-Mark-Peckmezian.jpg",
+    "startDate": "2024-08-03T21:30:00",
+    "endDate": "2024-08-03T23:00:00",
+    "stage": "Amsterdamse Bos / UFO II"
   },
   {
     "artistName": "Mechatorus",
@@ -77,7 +113,11 @@
     "description": "Torus: Stripped back euphoric trance, Evian Christ vibes [9]\nMechatok: Hyperpop-adjacent, collaborated with oklou, Evian Christ, Bladee, Charli xcx",
     "youtubeLink": "https://www.youtube.com/watch?v=plnhhNcxdeA&t=315s",
     "dekmentalLink": "https://dekmantelfestival.com/artists/mechatorus",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/mechatorus-1.jpg",
+    "startDate": "2024-08-03T19:00:00",
+    "endDate": "2024-08-03T20:30:00",
+    "stage": "Amsterdamse Bos / UFO II"
   },
   {
     "artistName": "Safety Trance & Toccororo",
@@ -85,7 +125,10 @@
     "description": "Safety Trance: Post-apocalyptic reggaeton, has collaborated with Sega Bodega, Arca, Boys Noize [9]\nToccororo: Popular DJ who's played Berghain, Boiler Room, Hör etc etc think reggaeton, baile funk, latin club tunes",
     "youtubeLink": "https://www.youtube.com/watch?v=o-22sHfd7CM",
     "dekmentalLink": "https://dekmantelfestival.com/artists/safety-trance-toccororo",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "startDate": "2024-08-02T18:00:00",
+    "endDate": "2024-08-02T19:30:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "DJ Sprinkles",
@@ -93,7 +136,11 @@
     "description": "When Madonna came out with her hit \"Vogue\" you knew it was over. She'd taken a very specifically queer, transgender, Latino and African-American phenomenon and totally erased that context with lyrics about how \"It makes no difference if you're black or white, if you're a boy or a girl.\" Madonna was taking in tons of money, while the Queen who actually taught her how to vogue was sitting on a table in front of me, broke. So if anybody requested \"Vogue\" or any other Madonna track, I just told them, \"No, this is a Madonna-free zone! And as long as I'm DJ-ing, you will not be allowed to vogue to the decontextualized, reified, corporatized, liberalized, neutralized, asexualized, re-genderized pop reflection of this dance floor's reality!\"",
     "youtubeLink": "",
     "dekmentalLink": "https://dekmantelfestival.com/artists/dj-sprinkles",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/2021_thaemlitz7_4248x3096_RGB.jpg",
+    "startDate": "2024-08-03T17:00:00",
+    "endDate": "2024-08-03T20:00:00",
+    "stage": "Amsterdamse Bos / Selectors"
   },
   {
     "artistName": "Marcos Valle",
@@ -101,7 +148,11 @@
     "description": "Bossa Nova! What's he doing here? 80 years old and \"credited for popularizing bossa nova in the 1960s\"",
     "youtubeLink": "https://www.youtube.com/watch?v=cTPaDbt_USA",
     "dekmentalLink": "https://dekmantelfestival.com/artists/marcos-valle",
-    "emojis": "🔴"
+    "emojis": "🔴",
+    "image": "https://munster-records.com/wp-content/uploads/2022/01/VAMPI45084-Marcos-Valle-Bicicleta.jpg",
+    "startDate": "2024-08-03T16:15:00",
+    "endDate": "2024-08-03T17:15:00",
+    "stage": "Amsterdamse Bos / Greenhouse"
   },
   {
     "artistName": "RP Boo & SHERELLE",
@@ -109,7 +160,11 @@
     "description": "RP Boo: footwork footwork footwork footwork footwork footwork footwork footwork\nSHERELLE: high bpm jungle/dnb and similar",
     "youtubeLink": "https://www.youtube.com/watch?v=0ZWL6nt5Krg",
     "dekmentalLink": "https://dekmantelfestival.com/artists/rp-boo-sherelle",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/SherelleRPboo.png",
+    "startDate": "2024-08-03T20:30:00",
+    "endDate": "2024-08-03T22:00:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "Cakes Da Killa",
@@ -117,7 +172,11 @@
     "description": "Gay rap legend",
     "youtubeLink": "https://www.youtube.com/watch?v=DbbGSJcIxy4",
     "dekmentalLink": "https://dekmantelfestival.com/artists/cakes-da-killa-live",
-    "emojis": "🔴"
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Cakes-Da-Killa-1-by-Ebru-Yildiz.jpeg",
+    "startDate": "2024-08-02T17:15:00",
+    "endDate": "2024-08-02T18:00:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "Aunty Rayzor",
@@ -125,7 +184,11 @@
     "description": "Nigerian gal rapping over fun high energy afrofunk/baile funk beats",
     "youtubeLink": "https://www.youtube.com/watch?v=2oTW2MQSGCc",
     "dekmentalLink": "https://dekmantelfestival.com/artists/aunty-rayzor-live",
-    "emojis": "🔴"
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/aunty.jpg",
+    "startDate": "2024-08-04T16:30:00",
+    "endDate": "2024-08-04T17:15:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "Parrish Smith",
@@ -133,15 +196,23 @@
     "description": "\"no elitism, no prejudices, no 4/4, no genre, hypnotic, tense, comprehensible, a state of mind\" plenty of 4/4 big heavy dark techno beats on his Dekmantel/HÖR set last year though",
     "youtubeLink": "https://www.youtube.com/watch?v=HpJ_ZO6xb-s",
     "dekmentalLink": "https://dekmantelfestival.com/artists/parrish-smith",
-    "emojis": "🎚️ 👹"
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/PS-Press-Pic-2-by-Hittegolf.jpg",
+    "startDate": "2024-08-04T13:00:00",
+    "endDate": "2024-08-04T16:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
-    "artistName": "Karenn [LIVE]",
+    "artistName": "Karenn",
     "rating": "9",
     "description": "Two nerds improvising techno live, shoutout District 8 RIP",
     "youtubeLink": "https://www.youtube.com/watch?v=sHpLLspwwPk",
     "dekmentalLink": "https://dekmantelfestival.com/artists/karenn-live",
-    "emojis": "🎚️ 🔴 👹"
+    "emojis": "🎚️ 🔴 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Karenn-9912-by-Marie-Staggat.jpg",
+    "startDate": "2024-08-04T19:30:00",
+    "endDate": "2024-08-04T20:30:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "RHR",
@@ -149,7 +220,11 @@
     "description": "Brazilian producer and decent DJ, he's on pretty early so only worth going if we happen to be there early",
     "youtubeLink": "https://www.youtube.com/watch?v=yPKVlYAJwZQ",
     "dekmentalLink": "https://dekmantelfestival.com/artists/rhr",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/RHR_6.jpg",
+    "startDate": "2024-08-04T15:00:00",
+    "endDate": "2024-08-04T16:30:00",
+    "stage": "Amsterdamse Bos / The Nest"
   },
   {
     "artistName": "Olof Dreijer & Diva Cruz",
@@ -157,7 +232,11 @@
     "description": "Olof: 1/2 of The Knife, west-african-inspired beats, appropriation? who knows\nDiva: Columbian singer and percussionist\nThey're doing a samba inspired album together with live drums so this is likely what they'll be playing at Dekmental",
     "youtubeLink": "https://www.youtube.com/watch?v=ZvFIILXUOcE",
     "dekmentalLink": "https://dekmantelfestival.com/artists/olof-dreijer-live",
-    "emojis": "🔴"
+    "emojis": "🔴",
+    "image": "https://olofdreijer.se/wp-content/uploads/2024/06/DIVAOLOF2.jpg",
+    "startDate": "2024-08-04T18:45:00",
+    "endDate": "2024-08-04T20:00:00",
+    "stage": "Amsterdamse Bos / Greenhouse"
   },
   {
     "artistName": "Nick Leon",
@@ -165,7 +244,11 @@
     "description": "Fun bouncy latin-inspired club music, has a production credit on Motomami",
     "youtubeLink": "https://www.youtube.com/watch?v=2TeksOZ6p9U",
     "dekmentalLink": "https://dekmantelfestival.com/artists/nick-león",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/NickLeo%CC%81n_LIVE_only-Kopie.jpg",
+    "startDate": "2024-08-03T17:30:00",
+    "endDate": "2024-08-03T18:30:00",
+    "stage": "Amsterdamse Bos / Radar"
   },
   {
     "artistName": "Surgeon",
@@ -173,7 +256,11 @@
     "description": "UK Techno old head, making modular-flavoured beats since the 90s",
     "youtubeLink": "https://www.youtube.com/watch?v=Ww9VtKqprUY",
     "dekmentalLink": "https://dekmantelfestival.com/artists/surgeon-live",
-    "emojis": "🔴 👹"
+    "emojis": "🔴 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Surgeon-press-foto.jpg",
+    "startDate": "2024-08-02T20:00:00",
+    "endDate": "2024-08-02T21:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "Ben UFO & Joy Orbison",
@@ -181,63 +268,83 @@
     "description": "hyph mngo",
     "youtubeLink": "https://www.youtube.com/watch?v=Aa_PDKKc2_A",
     "dekmentalLink": "https://dekmantelfestival.com/artists/ben-ufo-joy-orbison",
-    "emojis": "🎚️"
+    "emojis": "🎚️",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735e8d59d1f6264dc8846ff73a",
+    "startDate": "2024-08-03T21:00:00",
+    "endDate": "2024-08-03T23:00:00",
+    "stage": "Amsterdamse Bos / The Loop"
   },
   {
-    "artistName": "CEM",
+    "artistName": "CEM & Mama Snake",
     "rating": "8",
-    "description": "Herrensauna resident, Berlin club vibes, high energy closer to festival",
+    "description": "CEM: Herrensauna resident, Berlin club vibes. Mama Snake: Another techno head but deeper and darker vibes. High energy closer to the festival",
     "youtubeLink": "https://www.youtube.com/watch?v=5rV74ffXw-o",
-    "dekmentalLink": null,
-    "emojis": null
-  },
-  {
-    "artistName": "Mama Snake",
-    "rating": "7",
-    "description": "Another techno head but deeper and darker vibes",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null
+    "dekmentalLink": "https://dekmantelfestival.com/artists/cem-mama-snake",
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Film1455_01_screen.jpg",
+    "startDate": "2024-08-04T20:30:00",
+    "endDate": "2024-08-04T23:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "Darwin & DJ Storm",
     "rating": "4",
     "description": "Garage and UK(/Canada) Bass for those so inclined",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null
+    "youtubeLink": "https://www.youtube.com/live/o1Hrpk_PzVk?si=pOHTPUpnozXYYWsM",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/darwin-dj-storm",
+    "emojis": "🎚️",
+    "image": "https://i1.sndcdn.com/artworks-ntyonaYB9r91IlwW-MvQkPg-original.jpg",
+    "startDate": "2024-08-04T21:30:00",
+    "endDate": "2024-08-04T23:00:00",
+    "stage": "Amsterdamse Bos / Greenhouse"
   },
   {
     "artistName": "Dasha Rush",
     "rating": "7",
-    "description": "Excellent techno DJ and producer, industrial/bunker vibes",
+    "description": "Excellent techno DJ and producer, bunker vibes",
     "youtubeLink": "https://www.youtube.com/watch?v=s1qJ2rK0pBE",
-    "dekmentalLink": null,
-    "emojis": null
+    "dekmentalLink": "https://dekmantelfestival.com/artists/dasha-rush",
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Dasha-Rush-Press-Pic-2.jpg",
+    "startDate": "2024-08-02T16:00:00",
+    "endDate": "2024-08-02T18:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "Delano Legito",
     "rating": "6",
     "description": "really solid harder techno",
     "youtubeLink": "https://www.youtube.com/watch?v=0t3cNBcAi10",
-    "dekmentalLink": null,
-    "emojis": null
+    "dekmentalLink": "https://dekmantelfestival.com/artists/delano-legito",
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Delano1PP-7.jpg",
+    "startDate": null,
+    "endDate": null,
+    "stage": "Lofi"
   },
   {
     "artistName": "DJ Stingray 313",
     "rating": "5",
     "description": "masked electro/oldschool techno vibes",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null
+    "youtubeLink": "https://www.youtube.com/live/xFuSdO_-Esg?si=fglrcd6698va4Apz",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/dj-stingray-313",
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/DJ_Stingray_0129.jpg",
+    "startDate": null,
+    "endDate": null,
+    "stage": "Lofi"
   },
   {
     "artistName": "DVS1",
     "rating": "6",
     "description": "techno old head berghain resident with techno opinions lol",
     "youtubeLink": "https://www.youtube.com/watch?v=2ba7LvvK14U",
-    "dekmentalLink": null,
-    "emojis": null
+    "dekmentalLink": "https://dekmantelfestival.com/artists/dvs1",
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/DVS1__portrait3.jpg",
+    "startDate": "2024-08-04T18:30:00",
+    "endDate": "2024-08-04T21:00:00",
+    "stage": "Amsterdamse Bos / Selectors"
   },
   {
     "artistName": "Jane Fitz",
@@ -245,7 +352,10 @@
     "description": null,
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-02T18:00:00",
+    "endDate": "2024-08-02T20:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "James Blake",
@@ -253,15 +363,10 @@
     "description": "DJ Badger protegé",
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
-  },
-  {
-    "artistName": "Jennifer Loveless",
-    "rating": "5",
-    "description": "Techno and house, moreso lighter late night festival vibes than sweaty bunker",
-    "youtubeLink": "https://www.youtube.com/watch?v=Bxhynv3lLjI",
-    "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-04T16:30:00",
+    "endDate": "2024-08-04T18:45:00",
+    "stage": "Amsterdamse Bos / Greenhouse"
   },
   {
     "artistName": "Josey Rebelle",
@@ -269,7 +374,10 @@
     "description": "Genre-bending, really solid DJ",
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-04T18:00:00",
+    "endDate": "2024-08-04T20:00:00",
+    "stage": "Amsterdamse Bos / The Loop"
   },
   {
     "artistName": "Kode9",
@@ -277,7 +385,10 @@
     "description": "hyperdub man, most likely to drop some Burial",
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-04T20:00:00",
+    "endDate": "2024-08-04T21:30:00",
+    "stage": "Amsterdamse Bos / Greenhouse"
   },
   {
     "artistName": "Naone",
@@ -285,7 +396,10 @@
     "description": "classic 90s house and techno vibes 🇰🇷",
     "youtubeLink": "https://www.youtube.com/watch?v=C7Nc4_r5mGs",
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-02T18:30:00",
+    "endDate": "2024-08-02T20:00:00",
+    "stage": "Amsterdamse Bos / Connects"
   },
   {
     "artistName": "Palms Trax",
@@ -293,15 +407,10 @@
     "description": "retro 80s/90s house, acid, synth pop, disco fun vibes, fun for all the family",
     "youtubeLink": "https://www.youtube.com/watch?v=zfAcYG2HE2s",
     "dekmentalLink": null,
-    "emojis": null
-  },
-  {
-    "artistName": "Rrose",
-    "rating": "6",
-    "description": "detailed dark \"hypnotic\" techno",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-02T19:00:00",
+    "endDate": "2024-08-02T21:00:00",
+    "stage": "Amsterdamse Bos / The Loop"
   },
   {
     "artistName": "Salome & SPFDJ",
@@ -309,7 +418,10 @@
     "description": "techno for the girlos, hard and fast (missed SPFDJ last time in Berlin :( )",
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-02T20:30:00",
+    "endDate": "2024-08-02T22:00:00",
+    "stage": "Amsterdamse Bos / Radar"
   },
   {
     "artistName": "Sukubratz",
@@ -317,7 +429,10 @@
     "description": "latin club fun",
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-03T18:30:00",
+    "endDate": "2024-08-03T20:00:00",
+    "stage": "Amsterdamse Bos / Connects"
   },
   {
     "artistName": "Talismann",
@@ -325,7 +440,10 @@
     "description": "technoooooo",
     "youtubeLink": "https://youtu.be/UvzTNNfrMzw?si=mcfUHeIz607EdZs-",
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-02T21:00:00",
+    "endDate": "2024-08-02T23:00:00",
+    "stage": "Amsterdamse Bos / UFO I"
   },
   {
     "artistName": "VTSS",
@@ -333,7 +451,10 @@
     "description": "bouncy techno and gabber",
     "youtubeLink": null,
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-03T21:30:00",
+    "endDate": "2024-08-03T23:00:00",
+    "stage": "Amsterdamse Bos / Radar"
   },
   {
     "artistName": "Young Marco",
@@ -341,6 +462,9 @@
     "description": "had that hide and seek remix that you might've heard doing the rounds a few years ago",
     "youtubeLink": "https://www.youtube.com/watch?v=psSIJig_xnY",
     "dekmentalLink": null,
-    "emojis": null
+    "emojis": null,
+    "startDate": "2024-08-04T19:30:00",
+    "endDate": "2024-08-04T20:30:00",
+    "stage": "Amsterdamse Bos / Radar"
   }
 ]
