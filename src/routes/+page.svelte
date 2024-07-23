@@ -28,7 +28,7 @@
   const { artists } = data;
 </script>
 
-{#each Object.entries(artists) as [date, acts]}
+{#each Object.entries(artists).sort((a, b) =>  dayjs(a).diff(dayjs(b))) as [date, acts]}
   <div class="relative bg-[#8fa1ae] overflow-hidden">
     <h1 class="text-9xl text-center font-custom text-[#92ff97]">{date}</h1>
     <Timeline position="alternate" style="padding: 0">
