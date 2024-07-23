@@ -385,7 +385,7 @@
   {
     "artistName": "DJ Stingray 313",
     "rating": "6",
-    "description": "masked electro/oldschool techno vibes (check out track at 56:00 in youtube link 👀👀👀)",
+    "description": "masked electro/oldschool techno vibes (check out track at 56:30 in the youtube link 👀👀👀)",
     "youtubeLink": "https://www.youtube.com/live/xFuSdO_-Esg?si=fglrcd6698va4Apz",
     "dekmentalLink": "https://dekmantelfestival.com/artists/dj-stingray-313",
     "emojis": "🎚️ 👹",
@@ -425,17 +425,19 @@
     "youtubeLink": "Josey Rebelle",
     "dekmentalLink": "https://youtu.be/UpgpCZM97Hg?si=EjrGsaYvKHQ-MQ0p",
     "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Josey-Rebelle-Tegel-2023-%40sina.raw-%40suolmusic-dsc_1382-67.jpg",
     "startDate": "2024-08-04T18:00:00",
     "endDate": "2024-08-04T20:00:00",
     "stage": "Amsterdamse Bos / The Loop"
   },
   {
     "artistName": "Kode9",
-    "rating": "8",
+    "rating": "7",
     "description": "hyperdub man, most likely to drop some Burial",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null,
+    "youtubeLink": "https://youtu.be/95oNdj65Dx4?si=3_7NOo8nEhfrQLAc",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/kode9",
+    "emojis": "🎚️",
+    "image": "https://xlr8r.com/wp-content/uploads/2019/06/kode9-press-shots-credit-to-philip-skoczkowski-4.jpg",
     "startDate": "2024-08-04T20:00:00",
     "endDate": "2024-08-04T21:30:00",
     "stage": "Amsterdamse Bos / Greenhouse"
@@ -443,10 +445,11 @@
   {
     "artistName": "Naone",
     "rating": "4",
-    "description": "classic 90s house and techno vibes 🇰🇷",
+    "description": "classic 90s house and techno vibes 🇰. Playing three times at the festival.",
     "youtubeLink": "https://www.youtube.com/watch?v=C7Nc4_r5mGs",
-    "dekmentalLink": null,
-    "emojis": null,
+    "dekmentalLink": "https://dekmantelfestival.com/program",
+    "emojis": "🎚️ 👹",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Naone-1.jpg",
     "startDate": "2024-08-02T18:30:00",
     "endDate": "2024-08-02T20:00:00",
     "stage": "Amsterdamse Bos / Connects"
@@ -454,10 +457,11 @@
   {
     "artistName": "Palms Trax",
     "rating": "9",
-    "description": "retro 80s/90s house, acid, synth pop, disco fun vibes, fun for all the family",
+    "description": "retro 80s/90s house, garage, acid, synth pop, disco fun vibes, fun for all the family",
     "youtubeLink": "https://www.youtube.com/watch?v=zfAcYG2HE2s",
-    "dekmentalLink": null,
-    "emojis": null,
+    "dekmentalLink": "https://dekmantelfestival.com/artists/palms-trax",
+    "emojis": "🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Palms-Trax-Pressphoto-2-by-George-Nebieridze.jpg",
     "startDate": "2024-08-02T19:00:00",
     "endDate": "2024-08-02T21:00:00",
     "stage": "Amsterdamse Bos / The Loop"
