@@ -1,4 +1,64 @@
 [
+    {
+    "artistName": "Actress",
+    "rating": "7",
+    "description": "dark experimental legend",
+    "youtubeLink": "https://youtu.be/_FGCfQ_Bq1A?si=Mrr670HCs2W2j3xx",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/actress-live",
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Actress.jpg",
+    "startDate": "2024-08-01T22:30:00",
+    "endDate": "2024-08-01T23:30:00",
+    "stage": "Aan Het IJ / Shelter"
+  },
+  {
+    "artistName": "a.s.o.",
+    "rating": "5",
+    "description": "90s trip-hop vibes",
+    "youtubeLink": "https://www.youtube.com/watch?v=Z9rNKIbvrBw",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/a-s-o",
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/aso_press_1.jpg",
+    "startDate": "2024-08-01T19:00:00",
+    "endDate": "2024-08-01T20:00:00",
+    "stage": "Aan Het IJ / Shelter"
+  },
+  {
+    "artistName": "BEA1991",
+    "rating": "6",
+    "description": "pop bangers, collabed with Dev Hynes, Sega Bodega, Porches. Unclear whether she'll be doing a live show or DJ set though",
+    "youtubeLink": "https://www.youtube.com/watch?v=9kfLymx_c2k",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/bea1991",
+    "emojis": "🔴🎚️",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/BEA1991_2024_PRESS_creditDimBalsem.jpeg",
+    "startDate": "2024-08-01T19:45:00",
+    "endDate": "2024-08-01T20:45:00",
+    "stage": "Aan Het IJ / Parallel"
+  },
+  {
+    "artistName": "Bendik Giske",
+    "rating": "7",
+    "description": "Queer-er Colin Stetson saxophone vibes",
+    "youtubeLink": "https://www.youtube.com/watch?v=nYvYuuDY79A",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/bendik-giske",
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Bendik-Giske-by-Luke-Abby.jpg",
+    "startDate": "2024-08-01T01:00:00",
+    "endDate": "2024-08-01T02:00:00",
+    "stage": "Aan Het IJ / Bimhuis"
+  },
+  {
+    "artistName": "Caterina Barbieri & Space Afrika",
+    "rating": "9",
+    "description": "Caterina: Italian composer, from Lorenzo Senni-ish synth arps, to ambient to neoclassical and beyond. Space Afrika: reese bass dark uk ambient. They played the same 'Last Track' collaboration at last year's Atonal: https://spikeartmagazine.com/articles/every-song-is-the-last-track",
+    "youtubeLink": "https://www.youtube.com/watch?v=pUqAP9aNRRk",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/caterina-barbieri-space-afrika-present-last-track",
+    "emojis": "🔴",
+    "image": "https://cms.dekmantelfestival.com/uploads/images/Last-Track-II_LeonardoScotti.jpg",
+    "startDate": "2024-08-01T22:50:00",
+    "endDate": "2024-08-01T23:50:00",
+    "stage": "Aan Het IJ / Muziekgebouw"
+  },
   {
     "artistName": "Pangaea",
     "rating": "9",
@@ -324,8 +384,8 @@
   },
   {
     "artistName": "DJ Stingray 313",
-    "rating": "5",
-    "description": "masked electro/oldschool techno vibes",
+    "rating": "6",
+    "description": "masked electro/oldschool techno vibes (check out track at 56:00 in youtube link 👀👀👀)",
     "youtubeLink": "https://www.youtube.com/live/xFuSdO_-Esg?si=fglrcd6698va4Apz",
     "dekmentalLink": "https://dekmantelfestival.com/artists/dj-stingray-313",
     "emojis": "🎚️ 👹",
@@ -358,8 +418,8 @@
     "stage": "Amsterdamse Bos / UFO I"
   },
   {
-    "artistName": "James Blake",
-    "rating": null,
+    "artistName": "James Blake & Mala",
+    "rating": "9",
     "description": "DJ Badger protegé",
     "youtubeLink": null,
     "dekmentalLink": null,
