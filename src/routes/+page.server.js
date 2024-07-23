@@ -32,7 +32,7 @@ export function load({ params }) {
 
   const groupActsByStartDate = (timetable) => {
     return timetable.reduce((groupedActs, act) => {
-      const startDate = dayjs(act.startDate).format('dddd, D MMM');
+      const startDate = act.startDate ? dayjs(act.startDate).format('dddd, D MMM') : 'TBD';
       if (!groupedActs[startDate]) {
         groupedActs[startDate] = [];
       }

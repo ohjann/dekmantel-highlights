@@ -18,14 +18,16 @@
 </script>
 
 {#each Object.entries(artists) as [date, acts]}
-  <div class="relative bg-green-50 m-10 p-10">
+  <div class="relative bg-green-50">
     <h1 class="text-xl font-bold">{date}</h1>
     <Timeline position="alternate">
       {#each acts as act}
         <TimelineItem>
+          {#if act.startDate}
           <TimelineOppositeContent slot="opposite-content">
             <p>{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</p>
           </TimelineOppositeContent>
+          {/if}
           <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
@@ -46,7 +48,6 @@
           <Card.Content>
             <p>{act.description}</p>
             <a class="text-red-500" href={act.youtubeLink} target="_blank">Music sample</a>
-            <p>{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</p>
             {#if act.overlappingArtists.length}
               <p>Overlapping with: <span class="italic">{act.overlappingArtists.join(", ")}</span></p>
             {/if}
