@@ -337,7 +337,7 @@
   {
     "artistName": "CEM & Mama Snake",
     "rating": "8",
-    "description": "CEM: Herrensauna resident, Berlin club vibes. Mama Snake: Another techno head but deeper and darker vibes. High energy closer to the festival",
+    "description": "CEM: Herrensauna resident, Berlin club vibes. Mama Snake: Another techno head but deeper and darker vibes. High energy closer to the festival, get hyped",
     "youtubeLink": "https://www.youtube.com/watch?v=5rV74ffXw-o",
     "dekmentalLink": "https://dekmantelfestival.com/artists/cem-mama-snake",
     "emojis": "🎚️ 👹",
@@ -407,23 +407,13 @@
     "stage": "Amsterdamse Bos / Selectors"
   },
   {
-    "artistName": "Jane Fitz",
-    "rating": null,
-    "description": null,
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null,
-    "startDate": "2024-08-02T18:00:00",
-    "endDate": "2024-08-02T20:00:00",
-    "stage": "Amsterdamse Bos / UFO I"
-  },
-  {
     "artistName": "James Blake & Mala",
     "rating": "9",
-    "description": "DJ Badger protegé",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null,
+    "description": "DJ Badger protegé b2b with Skrillex predecessor",
+    "youtubeLink": "https://www.youtube.com/watch?v=5-azQvuZMAc",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/james-blake-dj-mala",
+    "emojis": "🎚️",
+    "image": "https://i.scdn.co/image/ab67616d0000b273807c30ced2d621d9b924082c",
     "startDate": "2024-08-04T16:30:00",
     "endDate": "2024-08-04T18:45:00",
     "stage": "Amsterdamse Bos / Greenhouse"
@@ -432,9 +422,9 @@
     "artistName": "Josey Rebelle",
     "rating": "5",
     "description": "Genre-bending, really solid DJ",
-    "youtubeLink": null,
-    "dekmentalLink": null,
-    "emojis": null,
+    "youtubeLink": "Josey Rebelle",
+    "dekmentalLink": "https://youtu.be/UpgpCZM97Hg?si=EjrGsaYvKHQ-MQ0p",
+    "emojis": "🎚️",
     "startDate": "2024-08-04T18:00:00",
     "endDate": "2024-08-04T20:00:00",
     "stage": "Amsterdamse Bos / The Loop"
