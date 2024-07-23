@@ -1,5 +1,12 @@
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  export let data;
+  const { artists } = data;
+</script>
+
+{#each artists as artist}
+	<h1>{artist.artistName}</h1>
+  <span>{artist.rating}</span>
+  <p>{artist.description}</p>
+    <a href={artist.youtubeLink}>{artist.youtubeLink}</a>
+    <a href={artist.dekmentalLink}>{artist.dekmentalLink}</a>
+{/each}
