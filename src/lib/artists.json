@@ -505,7 +505,7 @@
   },
   {
     "artistName": "VTSS & DJ Spit",
-    "rating": "7",
+    "rating": "6",
     "description": "bouncy techno and gabber, she's done remixes for Boys Noize, Shygirl, Danny L Harle (idk who DJ Spit is)",
     "youtubeLink": "https://youtu.be/ELWA78aNK3c?si=79pG18asP6udFY7W",
     "dekmentalLink": "https://dekmantelfestival.com/artists/vtss-dj-spit",
@@ -514,5 +514,17 @@
     "startDate": "2024-08-03T21:30:00",
     "endDate": "2024-08-03T23:00:00",
     "stage": "Amsterdamse Bos / Radar"
+  },
+  {
+    "artistName": "Bok Bok",
+    "rating": "7",
+    "description": "[broken glass sound effect]",
+    "youtubeLink": "https://youtu.be/P-A2zspQtsw?si=PU9BbUNO5yIqrMJK",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/bok-bok",
+    "tags": ["not techno"],
+    "image": "Bok-Bok-eddie-otchere-crop",
+    "startDate": "2024-08-02T15:45:00",
+    "endDate": "2024-08-02T17:15:00",
+    "stage": "Amsterdamse Bos / The Nest"
   }
 ]
