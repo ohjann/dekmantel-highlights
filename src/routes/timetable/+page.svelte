@@ -17,64 +17,64 @@
     <TimeCell time="23" />
 
     <TimeTableCell heading>The Loop</TimeTableCell>
-    <TimeTableCell span="12">Theo Kottis</TimeTableCell>
-    <TimeTableCell span="8">Gabrielle Kwarteng</TimeTableCell>
-    <TimeTableCell span="4">L.B. Dub Corp</TimeTableCell>
-    <TimeTableCell span="8">Palms Trax</TimeTableCell>
-    <TimeTableCell span="8">Carista</TimeTableCell>
+    <TimeTableCell setlength={180}>Theo Kottis</TimeTableCell>
+    <TimeTableCell setlength={120}>Gabrielle Kwarteng</TimeTableCell>
+    <TimeTableCell setlength={60}>L.B. Dub Corp</TimeTableCell>
+    <TimeTableCell setlength={120}>Palms Trax</TimeTableCell>
+    <TimeTableCell setlength={120}>Carista</TimeTableCell>
 
     <TimeTableCell heading>UFO I</TimeTableCell>
-    <TimeTableCell span="12">Wata Igarashi</TimeTableCell>
-    <TimeTableCell span="8">Dasha Rush</TimeTableCell>
-    <TimeTableCell span="8">Jane Fitz</TimeTableCell>
-    <TimeTableCell span="4">Surgeon</TimeTableCell>
-    <TimeTableCell span="8">Talismann</TimeTableCell>
+    <TimeTableCell setlength={180}>Wata Igarashi</TimeTableCell>
+    <TimeTableCell setlength={120}>Dasha Rush</TimeTableCell>
+    <TimeTableCell setlength={120}>Jane Fitz</TimeTableCell>
+    <TimeTableCell setlength={60}>Surgeon</TimeTableCell>
+    <TimeTableCell setlength={120}>Talismann</TimeTableCell>
 
     <TimeTableCell heading>UFO II</TimeTableCell>
-    <TimeTableCell span="12">Olivia</TimeTableCell>
-    <TimeTableCell span="4">Acid Junkies</TimeTableCell>
-    <TimeTableCell span="4">Detroit in Effect</TimeTableCell>
-    <TimeTableCell span="8">NVST</TimeTableCell>
-    <TimeTableCell span="4">Animistic Beliefs</TimeTableCell>
-    <TimeTableCell span="8">Beverly Hills 808303</TimeTableCell>
+    <TimeTableCell setlength={180}>Olivia</TimeTableCell>
+    <TimeTableCell setlength={60}>Acid Junkies</TimeTableCell>
+    <TimeTableCell setlength={60}>Detroit in Effect</TimeTableCell>
+    <TimeTableCell setlength={120}>NVST</TimeTableCell>
+    <TimeTableCell setlength={60}>Animistic Beliefs</TimeTableCell>
+    <TimeTableCell setlength={120}>Beverly Hills 808303</TimeTableCell>
 
     <TimeTableCell heading>Selectors</TimeTableCell>
-    <TimeTableCell span="16">Dr Banana</TimeTableCell>
-    <TimeTableCell span="12">Vlada</TimeTableCell>
-    <TimeTableCell span="12">Steffi</TimeTableCell>
+    <TimeTableCell setlength={240}>Dr Banana</TimeTableCell>
+    <TimeTableCell setlength={180}>Vlada</TimeTableCell>
+    <TimeTableCell setlength={180}>Steffi</TimeTableCell>
 
     <TimeTableCell heading>Greenhouse</TimeTableCell>
-    <TimeTableCell span="14">Veronica Vasicka</TimeTableCell>
-    <TimeTableCell span="4">Il Quadro Di Troisi</TimeTableCell>
-    <TimeTableCell span="2"></TimeTableCell>
-    <TimeTableCell span="4">Peter Hook and the Light</TimeTableCell>
+    <TimeTableCell setlength={210}>Veronica Vasicka</TimeTableCell>
+    <TimeTableCell setlength={60}>Il Quadro Di Troisi</TimeTableCell>
+    <TimeTableCell setlength={30}></TimeTableCell>
+    <TimeTableCell setlength={60}>Peter Hook and the Light</TimeTableCell>
     <a class="row-span-8 bg-red-500 bg-opacity-20 border-2 border-[#def1cb] flex items-center justify-center text-center break-words text-xs sm:text-base [writing-mode:vertical-lr] sm:[writing-mode:initial] tracking-wider" href="https://dekmantelfestival.com/artists/in-conversation-lena-willikens-vladimir-ivkovic-talk">Lena Willikens & Vladimir Ivkovic (talk)</a>
-    <TimeTableCell span="8">Interstellar Funk</TimeTableCell>
+    <TimeTableCell setlength={120}>Interstellar Funk</TimeTableCell>
 
     <TimeTableCell heading>The Nest</TimeTableCell>
-    <TimeTableCell span="11">Rachel Green</TimeTableCell>
-    <TimeTableCell span="6">Bok Bok</TimeTableCell>
-    <TimeTableCell span="3">Cakes Da Killa</TimeTableCell>
-    <TimeTableCell span="6">Safety Trance & Toccororo</TimeTableCell>
-    <TimeTableCell span="6">Pangaea</TimeTableCell>
-    <TimeTableCell span="8">Identified Patient</TimeTableCell>
+    <TimeTableCell setlength={165}>Rachel Green</TimeTableCell>
+    <TimeTableCell setlength={90}>Bok Bok</TimeTableCell>
+    <TimeTableCell setlength={45}>Cakes Da Killa</TimeTableCell>
+    <TimeTableCell setlength={90}>Safety Trance & Toccororo</TimeTableCell>
+    <TimeTableCell setlength={90}>Pangaea</TimeTableCell>
+    <TimeTableCell setlength={120}>Identified Patient</TimeTableCell>
 
     <TimeTableCell heading>Connects</TimeTableCell>
-    <TimeTableCell span="6">William Feltzer</TimeTableCell>
-    <TimeTableCell span="8">Hylke & Zto</TimeTableCell>
-    <TimeTableCell span="8">Doudou MD</TimeTableCell>
-    <TimeTableCell span="6">Naone</TimeTableCell>
-    <TimeTableCell span="4">Reptant</TimeTableCell>
-    <TimeTableCell span="8">Rey Colino & Mary Lake</TimeTableCell>
+    <TimeTableCell setlength={90}>William Feltzer</TimeTableCell>
+    <TimeTableCell setlength={120}>Hylke & Zto</TimeTableCell>
+    <TimeTableCell setlength={120}>Doudou MD</TimeTableCell>
+    <TimeTableCell setlength={90}>Naone</TimeTableCell>
+    <TimeTableCell setlength={60}>Reptant</TimeTableCell>
+    <TimeTableCell setlength={120}>Rey Colino & Mary Lake</TimeTableCell>
 
     <TimeTableCell heading>Radar</TimeTableCell>
-    <TimeTableCell span="8"></TimeTableCell>
-    <TimeTableCell span="6">Francesco Del Garda</TimeTableCell>
-    <TimeTableCell span="4">Konduku</TimeTableCell>
-    <TimeTableCell span="4">Roza Terenzi</TimeTableCell>
-    <TimeTableCell span="4">Aurora Halal</TimeTableCell>
-    <TimeTableCell span="4">Freddy K</TimeTableCell>
-    <TimeTableCell span="6">Salome & SPFDJ</TimeTableCell>
-    <TimeTableCell span="4">Spekki Webu</TimeTableCell>
+    <TimeTableCell setlength={120}></TimeTableCell>
+    <TimeTableCell setlength={90}>Francesco Del Garda</TimeTableCell>
+    <TimeTableCell setlength={60}>Konduku</TimeTableCell>
+    <TimeTableCell setlength={60}>Roza Terenzi</TimeTableCell>
+    <TimeTableCell setlength={60}>Aurora Halal</TimeTableCell>
+    <TimeTableCell setlength={60}>Freddy K</TimeTableCell>
+    <TimeTableCell setlength={90}>Salome & SPFDJ</TimeTableCell>
+    <TimeTableCell setlength={60}>Spekki Webu</TimeTableCell>
   </div>
 </div>

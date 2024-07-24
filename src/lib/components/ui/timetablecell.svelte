@@ -1,6 +1,8 @@
 <script>
   export let heading;
-  export let span = "1"
+  export let setlength = 15
+
+  const span = setlength / 15
 </script>
 
 {#if heading}
