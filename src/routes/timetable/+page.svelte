@@ -4,7 +4,7 @@
 </script>
 <div class="bg-[#FFB076] p-4">
   <div class="grid grid-cols-[0_repeat(8,minmax(0,1fr))] grid-flow-col grid-rows-41 font-custom text-[#15387a]">
-    <div class="text-[#def1cb] relative"><span class="absolute -bottom-3 -right-3 w-5 bg-[#FFB076]">13</span></div>
+    <div class="text-[#def1cb] relative text-xs sm:text-base"><span class="absolute -bottom-2 sm:-bottom-3 w-[0.8rem] -right-[0.3rem] sm:-right-3 sm:w-5 bg-[#FFB076] [writing-mode:vertical-lr] sm:[writing-mode:initial]">13</span></div>
     <TimeCell time="14" />
     <TimeCell time="15" />
     <TimeCell time="16" />
@@ -48,7 +48,7 @@
     <TimeTableCell span="4">Il Quadro Di Troisi</TimeTableCell>
     <TimeTableCell span="2"></TimeTableCell>
     <TimeTableCell span="4">Peter Hook and the Light</TimeTableCell>
-    <a class="row-span-8 bg-red-50 border-2 border-[#def1cb] flex items-center justify-center text-center" href="https://dekmantelfestival.com/artists/in-conversation-lena-willikens-vladimir-ivkovic-talk">Lena Willikens & Vladimir Ivkovic (talk)</a>
+    <a class="row-span-8 bg-red-500 bg-opacity-20 border-2 border-[#def1cb] flex items-center justify-center text-center break-words text-xs sm:text-base [writing-mode:vertical-lr] sm:[writing-mode:initial] tracking-wider" href="https://dekmantelfestival.com/artists/in-conversation-lena-willikens-vladimir-ivkovic-talk">Lena Willikens & Vladimir Ivkovic (talk)</a>
     <TimeTableCell span="8">Interstellar Funk</TimeTableCell>
 
     <TimeTableCell heading>The Nest</TimeTableCell>
