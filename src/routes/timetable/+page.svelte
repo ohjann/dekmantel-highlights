@@ -1,9 +1,11 @@
 <script>
-  import TimeCell from "$lib/components/ui/timecell.svelte";
-  import TimeTableCell from "$lib/components/ui/timetablecell.svelte"
+  import TimeCell from "$lib/components/ui/TimeCell.svelte";
+  import TimeTableCell from "$lib/components/ui/TimetableCell.svelte"
+  import DayProgressBar from '$lib/components/ui/DayProgressBar.svelte'
 </script>
-<div class="bg-[#FFB076] p-4">
-  <div class="grid grid-cols-[0_repeat(8,minmax(0,1fr))] grid-flow-col grid-rows-41 font-custom text-[#15387a]">
+<div class="bg-[#FFB076] p-4 relative">
+  <div class="grid grid-cols-[0_repeat(8,minmax(0,1fr))] grid-flow-col grid-rows-41 font-custom text-[#15387a] relative">
+    <DayProgressBar />
     <div class="text-[#def1cb] relative text-xs sm:text-base"><span class="absolute -bottom-2 sm:-bottom-3 w-[0.8rem] -right-[0.3rem] sm:-right-3 sm:w-5 bg-[#FFB076] [writing-mode:vertical-lr] sm:[writing-mode:initial]">13</span></div>
     <TimeCell time="14" />
     <TimeCell time="15" />
