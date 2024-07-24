@@ -1,5 +1,6 @@
 <script>
   import TimeCell from "$lib/components/ui/timecell.svelte";
+  import TimeTableCell from "$lib/components/ui/timetablecell.svelte"
 </script>
 <div class="bg-[#FFB076] p-4">
   <div class="grid grid-cols-[0_repeat(8,minmax(0,1fr))] grid-flow-col grid-rows-41 font-custom text-[#15387a]">
@@ -15,65 +16,65 @@
     <TimeCell time="22" />
     <TimeCell time="23" />
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">The Loop</h1>
-    <div class="row-span-12 border-2 border-[#def1cb] flex items-center justify-center">Theo Kottis</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center text-center">Gabrielle Kwarteng</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">L.B. Dub Corp</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Palms Trax</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Carista</div>
+    <TimeTableCell heading>The Loop</TimeTableCell>
+    <TimeTableCell span="12">Theo Kottis</TimeTableCell>
+    <TimeTableCell span="8">Gabrielle Kwarteng</TimeTableCell>
+    <TimeTableCell span="4">L.B. Dub Corp</TimeTableCell>
+    <TimeTableCell span="8">Palms Trax</TimeTableCell>
+    <TimeTableCell span="8">Carista</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">UFO I</h1>
-    <div class="row-span-12 border-2 border-[#def1cb] flex items-center justify-center">Wata Igarashi</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Dasha Rush</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Jane Fitz</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Surgeon</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Talismann</div>
+    <TimeTableCell heading>UFO I</TimeTableCell>
+    <TimeTableCell span="12">Wata Igarashi</TimeTableCell>
+    <TimeTableCell span="8">Dasha Rush</TimeTableCell>
+    <TimeTableCell span="8">Jane Fitz</TimeTableCell>
+    <TimeTableCell span="4">Surgeon</TimeTableCell>
+    <TimeTableCell span="8">Talismann</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">UFO II</h1>
-    <div class="row-span-12 border-2 border-[#def1cb] flex items-center justify-center">Olivia</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Acid Junkies</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center text-center">Detroit in Effect</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">NVST</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center text-center">Animistic Beliefs</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center text-center">Beverly Hills 808303</div>
+    <TimeTableCell heading>UFO II</TimeTableCell>
+    <TimeTableCell span="12">Olivia</TimeTableCell>
+    <TimeTableCell span="4">Acid Junkies</TimeTableCell>
+    <TimeTableCell span="4">Detroit in Effect</TimeTableCell>
+    <TimeTableCell span="8">NVST</TimeTableCell>
+    <TimeTableCell span="4">Animistic Beliefs</TimeTableCell>
+    <TimeTableCell span="8">Beverly Hills 808303</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">Selectors</h1>
-    <div class="row-span-16 border-2 border-[#def1cb] flex items-center justify-center">Dr Banana</div>
-    <div class="row-span-12 border-2 border-[#def1cb] flex items-center justify-center">Vlada</div>
-    <div class="row-span-12 border-2 border-[#def1cb] flex items-center justify-center">Steffi</div>
+    <TimeTableCell heading>Selectors</TimeTableCell>
+    <TimeTableCell span="16">Dr Banana</TimeTableCell>
+    <TimeTableCell span="12">Vlada</TimeTableCell>
+    <TimeTableCell span="12">Steffi</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">Greenhouse</h1>
-    <div class="row-span-14 border-2 border-[#def1cb] flex items-center justify-center text-center">Veronica Vasicka</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center text-center">Il Quadro Di Troisi</div>
-    <div class="row-span-2 border-2 border-[#def1cb] flex items-center justify-center"></div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center text-center">Peter Hook and the Light</div>
+    <TimeTableCell heading>Greenhouse</TimeTableCell>
+    <TimeTableCell span="14">Veronica Vasicka</TimeTableCell>
+    <TimeTableCell span="4">Il Quadro Di Troisi</TimeTableCell>
+    <TimeTableCell span="2"></TimeTableCell>
+    <TimeTableCell span="4">Peter Hook and the Light</TimeTableCell>
     <a class="row-span-8 bg-red-50 border-2 border-[#def1cb] flex items-center justify-center text-center" href="https://dekmantelfestival.com/artists/in-conversation-lena-willikens-vladimir-ivkovic-talk">Lena Willikens & Vladimir Ivkovic (talk)</a>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center text-center">Interstellar Funk</div>
+    <TimeTableCell span="8">Interstellar Funk</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">The Nest</h1>
-    <div class="row-span-11 border-2 border-[#def1cb] flex items-center justify-center">Rachel Green</div>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center">Bok Bok</div>
-    <div class="row-span-3 border-2 border-[#def1cb] flex items-center justify-center">Cakes Da Killa</div>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center text-center">Safety Trance & Toccororo</div>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center">Pangaea</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center text-center">Identified Patient</div>
+    <TimeTableCell heading>The Nest</TimeTableCell>
+    <TimeTableCell span="11">Rachel Green</TimeTableCell>
+    <TimeTableCell span="6">Bok Bok</TimeTableCell>
+    <TimeTableCell span="3">Cakes Da Killa</TimeTableCell>
+    <TimeTableCell span="6">Safety Trance & Toccororo</TimeTableCell>
+    <TimeTableCell span="6">Pangaea</TimeTableCell>
+    <TimeTableCell span="8">Identified Patient</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">Connects</h1>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center">William Feltzer</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Hylke & Zto</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center">Doudou MD</div>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center">Naone</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Reptant</div>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center text-center">Rey Colino & Mary Lake</div>
+    <TimeTableCell heading>Connects</TimeTableCell>
+    <TimeTableCell span="6">William Feltzer</TimeTableCell>
+    <TimeTableCell span="8">Hylke & Zto</TimeTableCell>
+    <TimeTableCell span="8">Doudou MD</TimeTableCell>
+    <TimeTableCell span="6">Naone</TimeTableCell>
+    <TimeTableCell span="4">Reptant</TimeTableCell>
+    <TimeTableCell span="8">Rey Colino & Mary Lake</TimeTableCell>
 
-    <h1 class="border-b-2 border-[#def1cb] text-[#def1cb] flex items-center justify-center">Radar</h1>
-    <div class="row-span-8 border-2 border-[#def1cb] flex items-center justify-center"></div>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center text-center">Francesco Del Garda</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Konduku</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Roza Terenzi</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Aurora Halal</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Freddy K</div>
-    <div class="row-span-6 border-2 border-[#def1cb] flex items-center justify-center">Salome & SPFDJ</div>
-    <div class="row-span-4 border-2 border-[#def1cb] flex items-center justify-center">Spekki Webu</div>
+    <TimeTableCell heading>Radar</TimeTableCell>
+    <TimeTableCell span="8"></TimeTableCell>
+    <TimeTableCell span="6">Francesco Del Garda</TimeTableCell>
+    <TimeTableCell span="4">Konduku</TimeTableCell>
+    <TimeTableCell span="4">Roza Terenzi</TimeTableCell>
+    <TimeTableCell span="4">Aurora Halal</TimeTableCell>
+    <TimeTableCell span="4">Freddy K</TimeTableCell>
+    <TimeTableCell span="6">Salome & SPFDJ</TimeTableCell>
+    <TimeTableCell span="4">Spekki Webu</TimeTableCell>
   </div>
 </div>
