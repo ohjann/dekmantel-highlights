@@ -58,7 +58,14 @@ const config = {
 			fontFamily: {
 				sans: [...fontFamily.sans],
         'custom': ['DekmantelBB-Blur', 'sans-serif'],
-			}
+			},
+			gridTemplateRows: {
+        '41': 'repeat(41, minmax(0, 1fr))',
+      },
+			gridRow: {
+        'span-16': 'span 16 / span 16',
+				'span-14': 'span 14 / span 14',
+      }
 		}
 	},
 };
