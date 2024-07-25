@@ -526,5 +526,17 @@
     "startDate": "2024-08-02T15:45:00",
     "endDate": "2024-08-02T17:15:00",
     "stage": "Amsterdamse Bos / The Nest"
+  },
+  {
+    "artistName": "Lorenzo Senni",
+    "rating": "8",
+    "description": "10 minute long synth arps inshallah",
+    "youtubeLink": "https://www.youtube.com/watch?v=pNuPU_fmr1E",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/lorenzo-senni-live",
+    "tags": ["not techno", "live"],
+    "image": "Lorenzo-Senni-credit-Jim-C-Nedd",
+    "startDate": "2024-08-03T20:30:00",
+    "endDate": "2024-08-03T21:30:00",
+    "stage": "Amsterdamse Bos / UFO II"
   }
 ]
