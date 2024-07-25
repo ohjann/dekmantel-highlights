@@ -2,4 +2,6 @@
   import "../app.css";
 </script>
 
-<slot />
+<div class="relative overflow-hidden">
+  <slot />
+</div>
