@@ -1,5 +1,5 @@
 <script>
-  import TimeCell from "$lib/components/ui/TimeCell.svelte";
+  import Timecell from "$lib/components/ui/Timecell.svelte";
   import TimeTableCell from "$lib/components/ui/TimetableCell.svelte"
   import DayProgressBar from '$lib/components/ui/DayProgressBar.svelte'
 </script>
