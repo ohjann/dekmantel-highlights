@@ -1,7 +1,7 @@
 <script>
-  import Timecell from "$lib/components/ui/Timecell.svelte";
-  import TimetableCell from "$lib/components/ui/TimetableCell.svelte"
-  import DayProgressBar from '$lib/components/ui/DayProgressBar.svelte'
+  import timecell from "$lib/components/ui/timecell.svelte";
+  import timetablecell from "$lib/components/ui/timetablecell.svelte"
+  import dayprogressbar from '$lib/components/ui/dayprogressbar.svelte'
 </script>
 <div class="bg-[#FFB076] p-4 relative">
   <div class="grid grid-cols-[0_repeat(8,minmax(0,1fr))] grid-flow-col grid-rows-41 font-custom text-[#15387a] relative">
