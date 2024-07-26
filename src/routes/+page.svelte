@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import dayjs from "dayjs";
   import isBetween from 'dayjs/plugin/isBetween';
   dayjs.extend(isBetween);
@@ -41,7 +42,7 @@
     <ul class="text-lg row-start-1 col-start-1 justify-self-center text-center">
       {#each currentActs as act}
         <li class="font-custom text-[#303032]">
-          <a href="/highlights#{act.artistName}">{act.artistName} -  {act.stage} - <span class="text-nowrap">{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</span></a>
+          <a href="{base}/highlights#{act.artistName}">{act.artistName} -  {act.stage} - <span class="text-nowrap">{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</span></a>
         </li>
       {/each}
     </ul>
@@ -52,7 +53,7 @@
     <ul class="text-lg row-start-2 col-start-1 justify-self-center text-center">
       {#each upcomingActs as act}
         <li class="font-custom text-[#303032]">
-          <a href="/highlights#{act.artistName}">{act.artistName} - {act.stage} - {dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</a>
+          <a href="{base}/highlights#{act.artistName}">{act.artistName} - {act.stage} - <span class="text-nowrap">{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</span></a>
         </li>
       {/each}
     </ul>
