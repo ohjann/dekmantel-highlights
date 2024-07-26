@@ -391,8 +391,8 @@
     "dekmentalLink": "https://dekmantelfestival.com/artists/delano-legito",
     "tags": [],
     "image": "Delano1PP-7",
-    "startDate": null,
-    "endDate": null,
+    "startDate": "2024-08-02T23:00:00",
+    "endDate": "2024-08-03T01:00:00",
     "stage": "Lofi"
   },
   {
@@ -403,20 +403,8 @@
     "dekmentalLink": "https://dekmantelfestival.com/artists/dj-stingray-313",
     "tags": [],
     "image": "DJ_Stingray_0129",
-    "startDate": null,
-    "endDate": null,
-    "stage": "Lofi"
-  },
-  {
-    "artistName": "Octo Octa",
-    "rating": "4",
-    "description": "House and garage-ish fun. Doing a live set during the day too but clashing with others :/",
-    "youtubeLink": "https://www.youtube.com/watch?v=zilDezA96SY",
-    "dekmentalLink": "https://dekmantelfestival.com/artists/octo-octa",
-    "tags": [],
-    "image": "Octo-Octa-by-Charles-Ludeke-02",
-    "startDate": null,
-    "endDate": null,
+    "startDate": "2024-08-03T01:00:00",
+    "endDate": "2024-08-03T03:00:00",
     "stage": "Lofi"
   },
   {

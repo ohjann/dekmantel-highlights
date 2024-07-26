@@ -6,10 +6,10 @@
   const { artists } = data;
 
   const FESTIVAL_START_DATE = dayjs("2024-08-01T12:00:00")
-  const NOW = dayjs().add(1, 'hour'); // hacky compensation for daylight savings https://github.com/iamkun/dayjs/issues/1260
+  const now = dayjs("2024-08-03T18:01:00").add(1, 'hour'); // hacky compensation for daylight savings https://github.com/iamkun/dayjs/issues/1260
   function getCurrentAndUpcomingActs(artists) {
 
-    const oneHourLater = NOW.add(1, 'hour');
+    const oneHourLater = now.add(1, 'hour');
 
     let currentActs = [];
     let upcomingActs = [];
@@ -20,28 +20,28 @@
           const startTime = dayjs(act.startDate).add(1, 'hour');
           const endTime = dayjs(act.endDate).add(1, 'hour');
 
-          if (NOW.isBetween(startTime, endTime)) {
+          if (now.isBetween(startTime, endTime)) {
             currentActs.push({ ...act, date });
-          } else if (startTime.isBetween(NOW, oneHourLater)) {
+          } else if (startTime.isBetween(now, oneHourLater)) {
             upcomingActs.push({ ...act, date });
           }
         }
       }
     }
 
-    return { currentActs, upcomingActs };
+    return { currentActs: currentActs.sort((a,b) => b.rating - a.rating), upcomingActs: upcomingActs.sort((a,b) => b.rating - a.rating) };
   }
 
   const { currentActs, upcomingActs } = getCurrentAndUpcomingActs(artists);
 </script>
 
-<div class="bg-[#8fa1ae] p-4 grid grid-cols-1 grid-rows-3 justify-center items-center w-full gap-10">
+<div class="bg-[#8fa1ae] p-4 grid grid-cols-1 grid-rows-3 justify-center items-center w-full gap-10 tracking-wide">
   {#if currentActs.length > 0}
     <h3 class="block text-6xl font-custom text-[#92ff97] row-start-1 col-start-1 justify-self-center text-center">Playing Now</h3>
     <ul class="text-lg row-start-1 col-start-1 justify-self-center text-center">
       {#each currentActs as act}
         <li class="font-custom text-[#303032]">
-          <a href="/highlights#{act.artistName}">{act.artistName} -  {act.stage} - {dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</a>
+          <a href="/highlights#{act.artistName}">{act.artistName} -  {act.stage} - <span class="text-nowrap">{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</span></a>
         </li>
       {/each}
     </ul>
@@ -58,8 +58,8 @@
     </ul>
   {/if}
 
-  {#if NOW.isBefore(FESTIVAL_START_DATE)}
-    <p class="font-custom text-[#303032] text-center text-2xl">{FESTIVAL_START_DATE.diff(dayjs(NOW), "days")} days until Dekmantel</p>
+  {#if now.isBefore(FESTIVAL_START_DATE)}
+    <p class="font-custom text-[#303032] text-center text-2xl">{FESTIVAL_START_DATE.diff(dayjs(now), "days")} days until Dekmantel</p>
   {:else if currentActs.length === 0 && upcomingActs.length === 0}
     <p class="font-custom text-[#303032] text-center">No acts currently playing or starting in the next hour.</p>
   {/if}
