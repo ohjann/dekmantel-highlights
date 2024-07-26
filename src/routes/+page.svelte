@@ -1,15 +1,15 @@
 <script>
   import dayjs from "dayjs";
   import isBetween from 'dayjs/plugin/isBetween';
-
   dayjs.extend(isBetween);
   export let data;
   const { artists } = data;
 
-  // TODO: UTC time zone confusion here 
+  const FESTIVAL_START_DATE = dayjs("2024-08-01T12:00:00")
+  const NOW = dayjs().add(1, 'hour'); // hacky compensation for daylight savings https://github.com/iamkun/dayjs/issues/1260
   function getCurrentAndUpcomingActs(artists) {
-    const now = dayjs("2024-08-03T19:00:00");
-    const oneHourLater = now.add(1, 'hour');
+
+    const oneHourLater = NOW.add(1, 'hour');
 
     let currentActs = [];
     let upcomingActs = [];
@@ -17,13 +17,12 @@
     for (const [date, acts] of Object.entries(artists)) {
       for (const act of acts) {
         if (act.startDate && act.endDate) {
-          const startTime = dayjs(act.startDate);
-          const endTime = dayjs(act.endDate);
+          const startTime = dayjs(act.startDate).add(1, 'hour');
+          const endTime = dayjs(act.endDate).add(1, 'hour');
 
-          console.log(act.artistName, startTime.toString(), endTime.toString(), now.toString());
-          if (now.isBetween(startTime, endTime)) {
+          if (NOW.isBetween(startTime, endTime)) {
             currentActs.push({ ...act, date });
-          } else if (startTime.isBetween(now, oneHourLater)) {
+          } else if (startTime.isBetween(NOW, oneHourLater)) {
             upcomingActs.push({ ...act, date });
           }
         }
@@ -59,10 +58,12 @@
     </ul>
   {/if}
 
-  {#if currentActs.length === 0 && upcomingActs.length === 0}
-    <p class="font-custom text-[#303032]">No acts currently playing or starting in the next hour.</p>
+  {#if NOW.isBefore(FESTIVAL_START_DATE)}
+    <p class="font-custom text-[#303032] text-center text-2xl">{FESTIVAL_START_DATE.diff(dayjs(NOW), "days")} days until Dekmantel</p>
+  {:else if currentActs.length === 0 && upcomingActs.length === 0}
+    <p class="font-custom text-[#303032] text-center">No acts currently playing or starting in the next hour.</p>
   {/if}
-  <a href="highlights" class="font-custom text-xl justify-self-center">Highlights</a>
+  <a href="highlights" class="font-custom text-xl justify-self-center text-[#92ff97] hover:bg-[#92ff97] hover:text-[#8fa1ae] w-full text-center py-4">Highlights</a>
 </div>
 
-<enhanced:img src="/src/lib/assets/map.webp" alt="map of amsterdamse bos" />
+<enhanced:img src="/src/lib/assets/map.webp" alt="map of amsterdamse bos" class="ml-auto mr-auto" />

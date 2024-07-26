@@ -408,6 +408,18 @@
     "stage": "Lofi"
   },
   {
+    "artistName": "Octo Octa",
+    "rating": "4",
+    "description": "House and garage-ish fun. Doing a live set during the day too but clashing with others :/",
+    "youtubeLink": "https://www.youtube.com/watch?v=zilDezA96SY",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/octo-octa",
+    "tags": [],
+    "image": "Octo-Octa-by-Charles-Ludeke-02",
+    "startDate": null,
+    "endDate": null,
+    "stage": "Lofi"
+  },
+  {
     "artistName": "DVS1",
     "rating": "6",
     "description": "techno old head berghain resident with techno opinions lol",
@@ -538,5 +550,29 @@
     "startDate": "2024-08-03T20:30:00",
     "endDate": "2024-08-03T21:30:00",
     "stage": "UFO II"
+  },
+  {
+    "artistName": "Broken English Club ",
+    "rating": "6",
+    "description": "technoooooo… live?",
+    "youtubeLink": "https://www.youtube.com/watch?v=O_1tA9qr01Q",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/broken-english-club-live",
+    "tags": ["live"],
+    "image": "MIRROR-1",
+    "startDate": "2024-08-04T16:00:00",
+    "endDate": "2024-08-04T17:00:00",
+    "stage": "UFO I"
+  },
+  {
+    "artistName": "Ash Lauryn",
+    "rating": "5",
+    "description": "house music summer vibes",
+    "youtubeLink": "https://www.youtube.com/watch?v=BM4ppjGoNCo",
+    "dekmentalLink": "https://dekmantelfestival.com/artists/ash-lauryn",
+    "tags": [],
+    "image": "Ash_B0007218",
+    "startDate": "2024-08-03T17:15:00",
+    "endDate": "2024-08-03T19:15:00",
+    "stage": "Greenhouse"
   }
 ]
