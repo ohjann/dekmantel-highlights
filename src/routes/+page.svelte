@@ -1,13 +1,17 @@
 <script>
   import { base } from '$app/paths';
   import dayjs from "dayjs";
-  import isBetween from 'dayjs/plugin/isBetween';
+  import isSameOrAfter from  "dayjs/plugin/isSameOrAfter";
+  import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
+  import isBetween from "dayjs/plugin/isBetween";
+  dayjs.extend(isSameOrAfter);
+  dayjs.extend(isSameOrBefore);
   dayjs.extend(isBetween);
   export let data;
   const { artists } = data;
 
   const FESTIVAL_START_DATE = dayjs("2024-08-01T12:00:00")
-  const now = dayjs().add(1, 'hour'); // hacky compensation for daylight savings https://github.com/iamkun/dayjs/issues/1260
+  const now = dayjs() 
   function getCurrentAndUpcomingActs(artists) {
 
     const oneHourLater = now.add(1, 'hour');
@@ -18,10 +22,10 @@
     for (const [date, acts] of Object.entries(artists)) {
       for (const act of acts) {
         if (act.startDate && act.endDate) {
-          const startTime = dayjs(act.startDate).add(1, 'hour');
-          const endTime = dayjs(act.endDate).add(1, 'hour');
+          const startTime = dayjs(act.startDate);
+          const endTime = dayjs(act.endDate);
 
-          if (now.isBetween(startTime, endTime)) {
+          if (now.isSameOrAfter(startTime) && now.isBefore(endTime)) {
             currentActs.push({ ...act, date });
           } else if (startTime.isBetween(now, oneHourLater)) {
             upcomingActs.push({ ...act, date });
@@ -41,7 +45,7 @@
     <h3 class="block text-6xl font-custom text-main-highlight row-start-1 col-start-1 justify-self-center text-center">Playing Now</h3>
     <ul class="text-lg row-start-1 col-start-1 justify-self-center text-center">
       {#each currentActs as act}
-        <li class="font-custom text-text-black">
+        <li class="font-custom text-text-black backdrop-blur-[1px]">
           <a href="{base}/highlights#{act.artistName}">{act.artistName} -  {act.stage} - <span class="text-nowrap">{dayjs(act.startDate).format("HH:mm")}–{dayjs(act.endDate).format("HH:mm")}</span></a>
         </li>
       {/each}
@@ -67,7 +71,7 @@
   <a href="highlights" class="font-custom text-xl justify-self-center text-hover hover:bg-hover hover:text-text-black w-full text-center py-4 border-4 rounded-[100px] border-hover">Highlights</a>
 </div>
 
-<div class="relative bg-[#5d6781] mt-5">
+<div class="relative bg-[#5d6781] mt-5 min-h-[59vh] flex flex-col">
   <svg width="100%" height="100" viewBox="0 0 1000 100" preserveAspectRatio="none" class="rotate-180 absolute -top-20 z-0">
     <path d="M0,0 
       L0,30 
@@ -86,5 +90,6 @@
       fill="#5d6781"/>
   </svg>
 
-<enhanced:img src="/src/lib/assets/map.webp" alt="map of amsterdamse bos" class="ml-auto mr-auto z-10 relative" />
+  <enhanced:img src="/src/lib/assets/map.webp" alt="map of amsterdamse bos" class="ml-auto mr-auto z-10 relative" />
+  <div class="flex-grow"></div>
 </div>

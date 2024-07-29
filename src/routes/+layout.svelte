@@ -2,6 +2,6 @@
   import "../app.css";
 </script>
 
-<div class="relative ios-padding">
+<div class="relative">
   <slot />
 </div>
