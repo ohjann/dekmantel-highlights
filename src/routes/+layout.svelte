@@ -2,6 +2,6 @@
   import "../app.css";
 </script>
 
-<div class="relative overflow-hidden">
+<div class="relative ios-padding">
   <slot />
 </div>

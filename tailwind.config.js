@@ -48,7 +48,13 @@ const config = {
 				card: {
 					DEFAULT: "hsl(var(--card) / <alpha-value>)",
 					foreground: "hsl(var(--card-foreground) / <alpha-value>)"
-				}
+				},
+				'main-highlight': '#92ff97',
+				'sub-highlight': '#af5339',
+				'main-background': '#8fa1ae',
+				'sub-lowlight': '#6a6b59',
+				'text-black': '#303032',
+				'hover': '#695582',
 			},
 			borderRadius: {
 				lg: "var(--radius)",
@@ -57,11 +63,11 @@ const config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],
-        'custom': ['DekmantelBB-Blur', 'sans-serif'],
+				'custom': ['DekmantelBB-Blur', 'sans-serif'],
 			},
 			gridTemplateRows: {
-        '41': 'repeat(41, minmax(0, 1fr))',
-      },
+				'41': 'repeat(41, minmax(0, 1fr))',
+			},
 			gridRow: {
         'span-16': 'span 16 / span 16',
 				'span-14': 'span 14 / span 14',
