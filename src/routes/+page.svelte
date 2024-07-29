@@ -7,7 +7,7 @@
   const { artists } = data;
 
   const FESTIVAL_START_DATE = dayjs("2024-08-01T12:00:00")
-  const now = dayjs("2024-08-03T18:01:00").add(1, 'hour'); // hacky compensation for daylight savings https://github.com/iamkun/dayjs/issues/1260
+  const now = dayjs().add(1, 'hour'); // hacky compensation for daylight savings https://github.com/iamkun/dayjs/issues/1260
   function getCurrentAndUpcomingActs(artists) {
 
     const oneHourLater = now.add(1, 'hour');
